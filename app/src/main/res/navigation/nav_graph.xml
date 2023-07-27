@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/toDoFragment">
+
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="com.example.todoappproject.ui.ToDoFragment"
+        android:label="fragment_to_do"
+        tools:layout="@layout/fragment_to_do" >
+        <action
+            android:id="@+id/action_toDoFragment_to_completedFragment"
+            app:destination="@id/completedFragment" />
+        <action
+            android:id="@+id/action_toDoFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/completedFragment"
+        android:name="com.example.todoappproject.ui.CompletedFragment"
+        android:label="fragment_completed"
+        tools:layout="@layout/fragment_completed" >
+        <action
+            android:id="@+id/action_completedFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+        <action
+            android:id="@+id/action_completedFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.todoappproject.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+
+        <action
+            android:id="@+id/action_detailFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+        <argument android:name="toDo"
+
+            app:argType="com.example.todoappproject.data.ToDo" />
+        <argument
+            android:name="toDoList"
+            app:argType="boolean"
+            android:defaultValue="false"/>
+        <argument
+            android:name="completedList"
+            app:argType="boolean"
+            android:defaultValue="false"/>
+    </fragment>
+</navigation>

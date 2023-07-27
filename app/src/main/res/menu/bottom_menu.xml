@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toDoFragment"
+        android:icon="@drawable/baseline_bookmark_add_24"
+        android:title="To Do" />
+    <item
+        android:id="@+id/completedFragment"
+        android:icon="@drawable/baseline_bookmark_added_24"
+        android:title="Completed" />
+</menu>
