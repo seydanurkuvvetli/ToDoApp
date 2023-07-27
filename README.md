@@ -1,2 +1,10 @@
 # ToDoApp
-![Screenshot_20230727_194504](https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/67f33f2c-4f81-412e-9ef1-0cb99c733d3c)![Screenshot_20230727_194430](https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/60ef1b0a-8ddb-4d28-bd31-7130d65bfe91)![Screenshot_20230727_194504](https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/e234e224-f0b6-4162-993d-11a5a478dd39)![Screenshot_20230727_194532](https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/413d904a-8c73-4d2a-b8fe-7928a76c3692)
+<div style="display: flex;">
+  <img src="https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/ffcce807-a5ea-488b-8d23-3bc366d5944d" alt="Screenshot 1" style="width: 40%; ">
+ <img src="https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/17b2f64d-cbb7-4df4-ac53-024eb1ffdd86" alt="Screenshot 2" style="width: 40%;">
+ <img src="https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/382a1f4a-28b7-4c79-896c-7239ab89e50b" alt="Screenshot 3" style="width: 40%;">
+<img src="https://github.com/seydanurkuvvetli/ToDoApp/assets/72807269/3590c2ea-0ad2-4183-bf48-9031ee59b081" alt="Screenshot 4" style="width: 40%;">
+
+</div>
+
+
